@@ -1,0 +1,24 @@
+{
+    "name": "node_tiktok",
+    "version": "1.0.0",
+    "description": "unofficial tiktok api for node.js",
+    "main": "dist/app.js",
+    "keywords": [
+        "tiktok",
+        "api",
+        "node.js"
+    ],
+    "author": "Michel Wächter <info@mwaechter.dev>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/michelwaechter/node_tiktok.git",
+    },
+    "bugs": {
+        "url": "https://github.com/michelwaechter/node_tiktok"
+    },
+    "dependencies": {
+        "import": "^0.0.6",
+        "node-fetch": "2"
+    }
+}
