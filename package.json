@@ -1,5 +1,5 @@
 {
-    "name": "node_tiktok",
+    "name": "tiktokify",
     "version": "1.0.0",
     "description": "unofficial tiktok api for node.js",
     "main": "dist/app.js",
@@ -12,13 +12,12 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/michelwaechter/node_tiktok.git",
+        "url": "https://github.com/michelwaechter/tiktokify"
     },
     "bugs": {
-        "url": "https://github.com/michelwaechter/node_tiktok"
+        "url": "https://github.com/michelwaechter/tiktokify"
     },
     "dependencies": {
-        "import": "^0.0.6",
         "node-fetch": "2"
     }
 }

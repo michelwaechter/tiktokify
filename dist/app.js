@@ -10,7 +10,7 @@ const getDataByUserName = async (identifier, request = "data") => {
   const data = await response.fetchData(url);
 
   if (request === "id") {
-      return data?.userInfo?.id;
+      return data?.userInfo.user.id;
     }
     return data;
 };
